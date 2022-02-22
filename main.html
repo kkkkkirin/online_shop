@@ -4,29 +4,34 @@
         <meta charset="utf-8">
         <title>Онлайн-магазин Eletech</title>
         <link rel="stylesheet" href="src/reset.css"></link>
+        <link rel="stylesheet" href="src/style.css"></link>
         <link rel="shortcut icon" href="images/favicon1.png" type="image/png">
         <script src="jquery_lib.js"></script>
     </head>
     <body>
         <header>
             <div class="top_header">
+                <div class="top_logo"></div>
                 <div class="top_search">
-                    <input type="text" name="search">
-                    <input type="button" value="Поиск">
+                    <input type="text" name="search" class="search_string">
+                    <input type="button" value="Поиск" class="btn">
+                </div>
+                <div class="busket">
+                    <input type="button" value="Корзина" class="btn">
                 </div>
                 <div class="users_accounts">
-                    <input type="button" value="Вход">
-                    <input type="button" value="Регистрация">
+                    <input type="button" value="Вход" class="btn">
+                    <input type="button" value="Регистрация" class="btn" id="reg_btn">
                 </div> 
             </div>
             <div class="bottom_header">
                 <div class="dropout_list">
                     <ul class="list">
-                        <li><a href="https://www.dns-shop.ru/">Бытовая техника</a></li>
-                        <li><a>Смартфоны и гаджеты</a></li>
-                        <li><a>ТВ и мультимедия</a></li>
-                        <li><a>Компьютеры</a></li>
-                        <li><a>Аксессуары</a></li>
+                        <a href="https://www.dns-shop.ru/"><li>Бытовая техника</li></a>
+                        <a href="#"><li>Смартфоны и гаджеты</li></a>
+                        <a href="#"><li>ТВ и мультимедия</li></a>
+                        <a href="#"><li>Компьютеры</li></a>
+                        <a href="https://www.dns-shop.ru/"><li>Аксессуары</li></a>
                     </ul>
                 </div>
             </div>

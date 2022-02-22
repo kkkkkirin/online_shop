@@ -1,3 +1,86 @@
 body{
-    background-color: aqua;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    height: 30%;
+    width: 100%;
+}
+
+/*/////////TOP HEADER////////*/
+.top_header{
+    height: 15%;
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.top_logo{
+    display: flex;
+    background-image: url(/images/logo2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 165px;
+    height: 75px;
+}
+
+.top_search{
+    width: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.search_string{
+    width: 340px;
+    height: 35px;
+    margin-right: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 6px;
+}
+
+.users_accounts{
+    display: flex;
+}
+
+.btn{
+    height: 35px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 6px;
+}
+
+#reg_btn{
+    margin-left: 3px;
+}
+
+.btn:hover{
+    background-color: rgba(110, 180, 255, 0.3);
+}
+
+
+/*/////////BOTTOM HEADER////////*/
+.bottom_header{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.list{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+a{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 45px;
+    border: 1px solid black;
 }
