@@ -3,10 +3,13 @@
     src: url(/fonts/Rubik-VariableFont_wght.ttf);
 }
 
+
 body{
     width: 100%;
     height: 100%;
+    position: relative;
 }
+
 
 /*///////////HEADER///////////// */
 
@@ -15,6 +18,7 @@ header{
     width: 100%;
     border-bottom: 1px solid rgba(170, 170, 170, 0.7);
     box-shadow: 0 2px 6px rgba(170, 170, 170, 0.7);
+    position: relative;
 }
 
 /*/////////TOP HEADER////////*/
@@ -31,6 +35,7 @@ header{
 
 .top_logo{
     display: flex;
+    position: relative;
     background-image: url(/images/logo2.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -134,16 +139,69 @@ li a{
     flex-flow: column;
 }
 
-/*////////////MAIN////////////*/
+/****************MAIN***************/
 
 
 
 
 
 
-/*////////////FOOTER////////////*/
-
+/***************FOOTER************/
+/**************TOP FOOTER************/
 footer{
     width: 100%;
-    /*background-color: rgb(75, 75, 75);*/
+    background-color: rgb(75, 75, 75);
+}
+
+.top_footer{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    font-family: rubick;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.company_info{
+    display: flex;
+    flex-flow: column;
+}
+
+.company_info > p{
+    border-bottom: 1px solid grey;
+    margin: 15px 0 15px 0;
+    padding-bottom: 10px;
+}
+
+.company_names{
+    font-size: 20px;
+}
+
+#location{
+    width: 140px;
+    border-bottom: none;
+}
+
+.company_footer_list li a{
+    font-size: 14px;
+}
+
+.company_footer_list li a:hover{
+    color: rgba(110, 180, 255, 0.8);
+}
+
+/*********BOTTOM FOOTER***************/
+.bottom_footer{
+    width: 63%;
+    margin: 0 auto;
+    border-top: 1px solid grey;
+    padding: 10px 0 10px 0;
+}
+
+.footer_info p{
+    font-family: rubick;
+    font-size: 12px;
+    color: rgba(128, 128, 128, 0.5);
 }
