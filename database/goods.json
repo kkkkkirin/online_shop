@@ -1,0 +1,57 @@
+{
+    "Goods" : [
+    {
+        "Brand" : "Acer",
+        "Name" : "Nitro",
+        "Series" : 5, 
+        "Series_Number" : "AN517-52-55V9",
+        "Category" : "Ноутбук",
+        "Color" : "Черный",
+        "url" : "https://items.s1.citilink.ru/1521223_v01_b.jpg"
+    },
+    {
+        "Brand" : "Lenovo",
+        "Name" : "Legion",
+        "Series" : 5, 
+        "Series_Number" : "15ACH6H",
+        "Category" : "Ноутбук",
+        "Color" : "Черный",
+        "url" : "https://www.notebookcheck-ru.com/uploads/tx_nbc2/LenovoLegion5-15ACH-RTX3000__1__07.jpg"
+    },
+    {
+        "Brand" : "ASUS",
+        "Name" : "ROG Strix",
+        "Series" : "G17", 
+        "Series_Number" : "G713IE-HX0022T",
+        "Category" : "Ноутбук",
+        "Color" : "Черный",
+        "url" : "https://dlcdnwebimgs.asus.com/gain/6E460C0F-EFB0-4ED5-AF26-0D7DC52E55E2"
+    },
+    {
+        "Brand" : "Acer",
+        "Name" : "Aspire",
+        "Series" : 7, 
+        "Series_Number" : "A715-75G-52NW",
+        "Category" : "Ноутбук",
+        "Color" : "Черный",
+        "url" : "https://static.acer.com/up/Resource/Acer/Laptops/Aspire_7/photogallery/20201001/Aspire-7-A715-75G-41G-FP-Black-gallery-01.png"
+    },
+    {
+        "Brand" : "ASUS",
+        "Name" : "TUF Gaming",
+        "Series" : "A15", 
+        "Series_Number" : "FX506IC-HN020",
+        "Category" : "Ноутбук",
+        "Color" : "Черный",
+        "url" : "https://www.e-katalog.ru/jpg_zoom1/2121372.jpg"
+    },
+    {
+        "Brand" : "MSI",
+        "Name" : "Katana",
+        "Series" : "GF76", 
+        "Series_Number" : "11UD-482XRU",
+        "Category" : "Ноутбук",
+        "Color" : "Серебристый",
+        "url" : "https://c.dns-shop.ru/thumb/st1/fit/300/300/8db3160599f6e9bc3ab179db68d2f0ac/7c4a43d1471e238a5f7550e8f8ed87ed431cc43aefbfc9a44929cae329586937.jpg"
+    }]
+}

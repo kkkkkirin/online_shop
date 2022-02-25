@@ -33,7 +33,7 @@ header{
     background-color: white;
 }
 
-.top_logo{
+.top_logo a{
     display: flex;
     position: relative;
     background-image: url(/images/logo2.png);
@@ -62,7 +62,7 @@ header{
     display: flex;
 }
 
-.btn{
+.btn1{
     height: 30px;
     font-family: rubicks;
     font-size: 14px;
@@ -75,9 +75,18 @@ header{
     margin-left: 3px;
 }
 
-.btn:hover{
+.btn1:hover{
     background-color: rgba(110, 180, 255, 0.8);
     color: white;
+}
+
+#btnBusket{
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    width: 35px;
+    height: 30px;
+    background-image: url(/images/busketjpeg.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -128,6 +137,7 @@ li a{
 .sub_menu li a{
     font-family: rubick;
     font-size: 12px;
+    
 }
 
 .sub_menu li a:hover{
@@ -137,14 +147,62 @@ li a{
 .top_menu li:hover .sub_menu{
     display: flex;
     flex-flow: column;
+    position: relative;
 }
 
 /****************MAIN***************/
 
+main{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    box-shadow: 3px 0 15px rgba(110, 180, 255, 0.2), -3px 0 15px rgba(110, 180, 255, 0.2);
+    padding: 50px;
+}
 
+.cards_of_goods{
+    display: flex;
+    flex-flow: column nowrap;
+    position: relative;
+}
 
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
 
+}
 
+.col-12{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-right: 1px;
+    margin-bottom: 25px;
+}
+
+.cardGood{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-flow: column;
+}
+
+.cardPict{
+    width: 100%;
+    height: 160px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 10px;
+}
+
+.btn{
+    margin: auto;
+}
 
 /***************FOOTER************/
 /**************TOP FOOTER************/
@@ -167,25 +225,30 @@ footer{
 .company_info{
     display: flex;
     flex-flow: column;
+
 }
 
 .company_info > p{
     border-bottom: 1px solid grey;
     margin: 15px 0 15px 0;
     padding-bottom: 10px;
+
 }
 
 .company_names{
     font-size: 20px;
+    color: rgba(110, 180, 255, 0.8);
 }
 
 #location{
     width: 140px;
     border-bottom: none;
+    color: black;
 }
 
 .company_footer_list li a{
     font-size: 14px;
+    text-decoration: none;
 }
 
 .company_footer_list li a:hover{

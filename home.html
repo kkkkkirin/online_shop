@@ -3,25 +3,28 @@
     <head>
         <meta charset="utf-8">
         <title>Онлайн-магазин Eletech</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="css/reset.css"></link>
         <link rel="stylesheet" href="css/style.css"></link>
         <link rel="shortcut icon" href="images/favicon1.png" type="image/png">
         <script src="jquery_lib.js"></script>
+        <script src="src/index.js"></script>
     </head>
     <body>
         <header>
             <div class="top_header">
-                <div class="top_logo"></div>
+                <div class="top_logo"><a href="#"></a></div>
                 <div class="top_search">
                     <input type="text" name="search" class="search_string">
-                    <input type="button" value="Поиск" class="btn">
+                    <input type="button" value="Поиск" class="btn1">
                 </div>
                 <div class="busket">
-                    <input type="button" value="Корзина" class="btn">
+                    <input type="button" class="btn" id="btnBusket">
                 </div>
                 <div class="users_accounts">
-                    <input type="button" value="Вход" class="btn">
-                    <input type="button" value="Регистрация" class="btn" id="reg_btn">
+                    <input type="button" value="Вход" class="btn1">
+                    <input type="button" value="Регистрация" class="btn1" id="reg_btn">
                 </div> 
             </div>
             <div class="bottom_header">
@@ -81,6 +84,13 @@
         </header>
 
         <main>
+            <div class="cards_of_goods">
+                <div class="row no-gutters goods">
+
+                </div>
+            </div>
+
+
             <script>
                 $(document).ready(function(){
                    
@@ -123,7 +133,7 @@
 
                 <div class="company_info">
                     <p class="company_names">Мы находимся</p>
-                    <p id="location">John Doe, Company Inc.
+                    <p id="location">
                         12345 North Main Street
                         Anywhere, USA
                     </p>
